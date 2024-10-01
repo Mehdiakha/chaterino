@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/frontend/styles/preloader.css">
+    <title>Chaterino</title>
+</head>
+<body>
+    <div id="preloader">
+        <div class="loader_line"></div>
+    </div>
+    <div id="logo">
+        <h3>Chaterin</h3>
+        <img src="./assets/images/pixel.png" alt="">
+    </div>
+    <section id="Auth-section">
+        <div id="Auth-wrapper">
+            <div id="box-1">
+                <h2>Log In</h2>
+                <h5>To Start Chatting :)</h5>
+            </div>  
+            <div id="box-2">
+                <form class="Auth-form" method="get">
+                    <label for="user-name">Username</label>
+                    <input type="text" placeholder="  Type your username" name="username" size="36">
+                    <br>
+                    <label for="password">Password</label>
+                    <input type="password" name="passwd" size="36" placeholder="  Type your password">
+                    <h4><a href="#">Forgotten Password?</a></h4>
+                </form>
+            </div>    
+            <div id="box-3">
+                <button type="submit"><span>Log In</span>
+                </button>
+                <h3>Don't have an account? <a href="./signup.html">Sign up now!</a></h3>
+           </div>
+        </div>
+        <section class="Auth-footer">
+            <div>
+                <h4>Made by <span>Mehdi</span></h4>
+            </div>
+        </section>
+    </section>
+    <script src="./scripts/preload.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
